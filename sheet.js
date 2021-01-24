@@ -12,9 +12,12 @@ class sheet {
         this.y = 140;
         this.animations=[];
         
-        this.animations.push(new Animator(this.spritesheet, 1, 564, 86, 136, 4, 0.1, 25, false, true));
-        this.animations.push(new Animator(this.spritesheet, 0, 386, 86, 136, 4, 0.1, 25, false, true));
-        this.animations.push(new Animator(this.spritesheet, 0, 19, 10, 15, 4, 0.1, 10, false, true));
+        //this.animations.push(new Animator(this.spritesheet, 1, 564, 86, 136, 4, 0.1, 25, false, true));
+        //this.animations.push(new Animator(this.spritesheet, 0, 386, 86, 136, 4, 0.1, 25, false, true));
+        //this.animations.push(new Animator(this.spritesheet, 0, 19, 10, 15, 4, 0.1, 10, false, true));
+        this.animations.push(new Animator(this.spritesheet, 6, 40, 250, 300, 4, 0.1, 10, false, true));
+        this.animations.push(new Animator(this.spritesheet, 6, 40, 250, 300, 4, 0.1, 10, false, true));
+        this.animations.push(new Animator(this.spritesheet, 6, 40, 250, 300, 4, 0.1, 10, false, true));
         this.animations.push(new Animator(this.spritesheet, 6, 40, 250, 300, 4, 0.1, 10, false, true));
     };
 
